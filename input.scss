@@ -211,3 +211,16 @@ body {
         margin-top: 20px;
     }
 }
+
+@media screen and (max-height: 500px) {
+    .contact-container {
+        z-index: 4;
+        width: max-content;
+        height: max-content;
+        flex-direction: column;
+        flex-wrap: wrap;
+        top: 0px;
+        left: 10px;
+        // transform: rotate(90deg) translate(40px, 40px);
+    }
+}
